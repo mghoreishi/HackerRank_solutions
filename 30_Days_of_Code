@@ -36,7 +36,7 @@ Console.WriteLine(sum_double.ToString("0.0"));
 // Concatenate and print the String variables on a new line
 Console.WriteLine(sum_string);
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-// Day 1: Operators
+// Day 2: Operators
 
 public static void solve(double meal_cost, int tip_percent, int tax_percent)
 {
@@ -44,3 +44,20 @@ public static void solve(double meal_cost, int tip_percent, int tax_percent)
    total_cost = Math.Round(meal_cost + meal_cost * tip_percent / 100 +   meal_cost * tax_percent / 100);
    Console.WriteLine(total_cost);
  }
+ ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ // Day 3:Intro to Conditional Statements
+ 
+public static void Main(string[] args)
+{
+    int N = Convert.ToInt32(Console.ReadLine().Trim());
+
+    if (N % 2 != 0)
+      Console.WriteLine("Weird");
+    if (N % 2 == 0 && N >= 2 && N < 5)
+       Console.WriteLine("Not Weird");
+    if (N % 2 == 0 && N >= 6 && N <= 20)
+        Console.WriteLine("Weird");
+    if (N % 2 == 0 && N > 20)
+        Console.WriteLine("Not Weird");
+}
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
