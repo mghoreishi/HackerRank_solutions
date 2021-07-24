@@ -1,7 +1,7 @@
 //// Hackerrank
 //// 30 Days of Code
 
-
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 // Day 0: Hello, World.
 // Read a full line of input from stdin and save it to our dynamically typed variable, input_string.
 
@@ -14,7 +14,7 @@ inputString = Console.ReadLine();
 // Print a string literal saying "Hello, World." to stdout using cout.
 Console.WriteLine("Hello, World.");
 Console.WriteLine(inputString);
-
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 // Day 1: Data Types
 // Declare second integer, double, and String variables.
 
@@ -35,5 +35,12 @@ Console.WriteLine(sum_double.ToString("0.0"));
 
 // Concatenate and print the String variables on a new line
 Console.WriteLine(sum_string);
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+// Day 1: Operators
 
-Console.ReadLine(); 
+public static void solve(double meal_cost, int tip_percent, int tax_percent)
+{
+   double total_cost;
+   total_cost = Math.Round(meal_cost + meal_cost * tip_percent / 100 +   meal_cost * tax_percent / 100);
+   Console.WriteLine(total_cost);
+ }
