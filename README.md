@@ -29,7 +29,7 @@ If you like this repository, learn something or you are using it in your applica
 
 # HackerRank Badges
 
-![Hacker Rank](https://github.com/mghoreishi/HackerRank_solutions/blob/main/HackerRankBadges.png)
+![Hacker Rank](https://github.com/mghoreishi/HackerRank_solutions/blob/main/HackerRankBadge.png)
 
 # HackerRank Certificates
 ![Hacker Rank](https://github.com/mghoreishi/HackerRank_solutions/blob/main/HackerRankCertificates.png)
